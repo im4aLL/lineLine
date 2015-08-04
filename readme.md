@@ -1,4 +1,4 @@
-# jQuery lineLine (only 3 KB)
+# jQuery lineLine (only 1 KB)
 ##### a lightweight jQuery plugin for add linenumber to textarea or code or nay other tag
 ### Usage:
 ```javascript
