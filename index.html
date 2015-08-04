@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add linenumber to textarea or code, jQuery code view with jquery lineline</title>
+
+    <style>
+        /* for demo only */
+        *                   { margin: 0; padding: 0; }
+        body                { font-family: 'Consolas';}
+        p                   { font-size: 14px; line-height: 22px;  }
+
+        /* tweak css as per your need */
+        .lineline           { max-height: 300px; width: 700px; margin: 50px auto 0; background: #ececec; padding: 20px; overflow: auto; text-align: left; }
+        .lineline-numbers   { width: 20px; border-right: 1px solid #ccc; padding-right: 5px; color: #777; }
+        .lineline-lines     { padding-left: 20px; white-space: pre; white-space: -moz-pre; white-space: -pre; white-space: -o-pre; word-wrap: break-word; } 
+        .lineline-code      { font-family: 'Consolas'; font-size: 12px; line-height: 18px; width: 100%; white-space: nowrap; }
+    </style>
+</head>
+<body>
+
+    <div style="text-align: center; padding: 40px 20px 0;">
+        <h2>jQuery lineLine</h2>
+        <p>Add line number to textarea or code tag</p>
+        
+        <textarea>$('textarea').lineLine();</textarea>
+    </div>
+    
+    
+    <textarea>
+/* --- Reset Elements – Start --- */
+* { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+html, body { width: 100% !important; height: 100% !important; margin: 0; padding: 0; }
+p,h1,h2,h3,h4 { margin: 0; padding: 0; }
+/* --- Reset Elements – Reset --- */
+
+/* --- Global Style – Start --- */
+a:link { color: #007ee5; text-decoration: none; }
+a:visited { color: #007ee5; text-decoration: none; }
+body, td, th, div, span { font-family: 'Open Sans'!important; font-size: 13px; }
+
+/* --- Reset Elements – Start --- */
+* { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+html, body { width: 100% !important; height: 100% !important; margin: 0; padding: 0; }
+p,h1,h2,h3,h4 { margin: 0; padding: 0; }
+/* --- Reset Elements – Reset --- */
+
+/* --- Global Style – Start --- */
+a:link { color: #007ee5; text-decoration: none; }
+a:visited { color: #007ee5; text-decoration: none; }
+body, td, th, div, span { font-family: 'Open Sans'!important; font-size: 13px; }
+    </textarea>
+
+    <textarea>
+<body style="margin: 0; padding: 0;">
+
+<!-- PAGE CONTAINER - Start -->
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" bgcolor="#f5f6f7">
+    <tr>
+        <td align="center">
+
+
+    <!-- 1.0 - HEADER - Start -->
+    <table class="container" width="800" align="center" border="0" cellspacing="0" cellpadding="0" bgcolor="#007ee5">
+        <tr>
+            <td valign="top">
+        </td>
+    </tr>
+</table>
+    </textarea>
+
+    <br><br><br><br>
+
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="jquery.lineline.js"></script>
+
+<script>
+    jQuery(document).ready(function($) {
+        $('textarea').lineLine();
+    });
+</script>
+
+</body>
+</html>

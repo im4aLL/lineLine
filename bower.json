@@ -1,0 +1,29 @@
+{
+  "name": "jQuery lineLine",
+  "version": "1.0.0",
+  "homepage": "https://github.com/im4aLL/lineLine",
+  "authors": [
+    "im4aLL <me@habibhadi.com> (http://habibhadi.com)"
+  ],
+  "description": "add linenumber to textarea or any other element",
+  "main": "jquery.lineline.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "line",
+    "number",
+    "code",
+    "syntax",
+    "simple",
+    "light"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
